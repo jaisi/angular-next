@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular Starter</title>
+</head>
+<body ng-app="IceCreamApp">
+<h1>Icecream, Icreream, We all scream for Icecream!!!!!</h1>
+<div ng-include="'partials/navbar.html'"></div>
+
+<div ng-view>
+	<!--area for content to change out, $routeProvider in app.js-->
+</div>
+
+		<script type="text/javascript" src="./lib/node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="./lib/node_modules/angular-route/angular-route.min.js"></script>
+	<script type="text/javascript" src="app/app.js"></script>
+	<script type="text/javascript" src="app/controllers/FlavorCtrl.js"></script>
+	<script type="text/javascript" src="app/factories/FlavorFactory.js"></script>
+</body>
+</html>
